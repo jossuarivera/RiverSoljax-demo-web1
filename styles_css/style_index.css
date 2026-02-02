@@ -1,0 +1,231 @@
+.body {
+        text-align: center;
+        align-items: center;
+            margin: 0;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/*header*/
+.index_header {
+    background-image: url("../images/background_one.png");
+        background-size: cover;
+            background-position: center;
+        background-repeat: no-repeat;
+    min-height: 60vh;
+}
+/*Navigation bar*/
+.navigation_bar_index {
+    display: flex;
+         background-color: lightgreen;
+            padding: 1rem;
+}
+.navigation_bar_index img {
+    max-width: 300px;
+        width: 100%;
+            margin-right: auto;
+}
+.navigation_bar_index div {
+    margin-left: auto;
+        color: inherit;
+            text-decoration: none;
+                cursor: pointer;
+}
+
+/*Button edit*/
+#order_navigation_bar {
+    color: inherit;
+        text-decoration: none;
+            cursor: default;
+                margin-right: 1rem;
+                    font-size: x-large;
+}
+#contact_navigation_bar {
+    color: inherit;
+        text-decoration: none;
+            cursor: default;
+                font-size: x-large;
+}
+/*Logo and Slogan*/
+#riversoljax_logo {
+    max-width: 500px;
+    width: 100%;
+}
+#riversoljax_slogan {
+    max-width: 700px;
+    width: 100%;
+}
+
+/*THIS ONE IS FOR BOTH PC AND MOBILE*/
+/*Meal prep*/
+.meal_prep_section h2 {
+    font-size: 4rem;
+}
+
+/*MOBILE DISPLAY*/
+@media (max-width: 768px) {
+
+/*MEAL PREP SECTION*/
+.meal_prep_layout_img_and_p img {
+    max-width: 700px;
+    width: 100%;
+}
+.meal_prep_layout_img_and_p p {
+    font-size: larger;
+    text-align: center;
+    padding: 1rem;
+}
+.meal_prep_layout figure img {
+    max-width: 700px;
+    width: 100%;
+}
+
+/*walk-in menu display*/
+.walk-in_menu_section {
+    display: flex;
+    flex-direction: column;
+}
+.walk-in_menu_section .walk-in_menu_display_mobile {
+    max-width: 409px;
+    width: 100%;
+}
+/*address*/
+.walk-in_menu_section p {
+    font-size: larger;
+}
+.address_info {
+    margin: auto;
+        max-width: 430px;
+            width: 100%;
+                border-radius: 16px;
+                    overflow: hidden;
+                background: white;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+}
+.address_info img {
+    max-width: 100px;
+    width: 100%;
+}
+.address_info address {
+    display: flex;
+    flex-direction: row;
+}
+
+/*footer*/
+.index_footer {
+    display: flex;
+        flex-direction: column;
+             background-color: lightgreen;
+        padding: 2rem;  
+    align-items: center; 
+}
+.index_footer img {
+    max-width: 200px;
+        width: 100%;      
+}
+.index_footer p {
+    margin-bottom: .5rem
+}
+}
+
+/*PC DISPLAY*/
+@media (min-width: 769px) {
+
+/*meal prep section*/
+.meal_prep_layout {
+    display: flex;
+    flex-direction: row;
+}
+.meal_prep_layout figure{
+    max-width: 700px;
+        width: 100%;
+    margin-left: auto;
+}
+.meal_prep_layout p {
+    font-size: larger;
+}
+
+.meal_prep_layout_img_and_p {
+    flex-direction: column;
+        max-width: 400px;
+            width: 100%;
+        margin-left: 10%;
+    font-size: large;
+}
+
+/* Walk-in menu*/
+
+.walk-in_menu_section h2 {
+    font-size: 4rem;
+}
+
+/*PART-1*/
+.part_one_walk-in_menu_style {
+    display: flex;
+}
+.part_one_walk-in_menu_style img {
+    max-width: 700px;
+    width: 100%;
+}
+.part_one_walk-in_menu_style p {
+    font-size: x-large;
+}
+/*PART-2*/
+.part_two_walk-in_menu_style{
+    display: flex;
+}
+.part_two_walk-in_menu_style img {
+    max-width: 700px;
+    width: 100%;
+}
+/*PART-3*/
+.part_three_walk-in_menu_style {
+    display: flex;
+        flex-direction: row-reverse;
+}
+.part_three_walk-in_menu_style img {
+    max-width: 700px;
+        width: 100%;
+            padding: 2rem;
+}
+
+/*-------------------------------------------------------COMEBACK ADDRESS------------------------------------*/
+/*ADDRESS & EXTRA INFO*/
+.address_info {
+    margin: auto;
+        max-width: 420px;
+            border-radius: 16px;
+                overflow: hidden;
+            background: white;
+        box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+}
+.address_info img {
+    max-width: 100px;
+    width: 100%;
+}
+.address_info address {
+    display: flex;
+    flex-direction: row;
+}
+
+/*footer*/
+.index_footer {
+    display: flex;
+        flex-direction: column;
+             background-color: lightgreen;
+        padding: 1rem;  
+    align-items: center;  
+}
+.index_footer img {
+    max-width: 300px;
+        width: 100%;
+            margin-bottom: .5rem;      
+}
+.index_footer p {
+    margin-bottom: .5rem
+}
+}
